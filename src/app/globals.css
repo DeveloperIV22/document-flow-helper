@@ -1,13 +1,16 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 @plugin "daisyui" {
-  themes: nord --default, abyss --prefersdark, cupcake, dracula;
+  themes:
+    nord --default,
+    abyss --prefersdark,
+    cupcake,
+    dracula;
 }
 
 :root {
   --background: #ffffff;
   --foreground: #171717;
 }
-
 
 @theme inline {
   --color-background: var(--background);
